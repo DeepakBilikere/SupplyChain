@@ -70,4 +70,8 @@ router.get('/products/wideWidthFilms/geoMembraneFilm', (req, res, next) => {
   res.render('wideWidthFilms/geoMembraneFilm')
 })
 
+router.get('/products/wideWidthFilms/tarpaulins', (req, res, next) => {
+  res.render('wideWidthFilms/tarpaulins')
+})
+
 module.exports = router
